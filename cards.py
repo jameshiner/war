@@ -9,7 +9,7 @@ class Deck:
 
 	def __init__(self, x):
 		self.rankShort = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
-		self.rankLong = ["Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",	"Jack", "Queen", "King", "Ace"]
+		self.rankLong = ["Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"]
 		self.suitShort = ["♦", "♥", "♠", "♣"]
 		self.suitLong = ["Diamonds", "Hearts", "Spades", "Clubs"]
 		self.deck = []
